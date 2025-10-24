@@ -2,6 +2,8 @@ name: Fork Sync
 
 permissions:
     contents: write
+    actions: write  # 添加这行
+    workflows: write  # 添加这行
 
 on:
     schedule:
